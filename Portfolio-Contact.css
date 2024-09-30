@@ -1,0 +1,223 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.tulip{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin: 0%;
+    color: white;
+    font-size: 3rem;   
+}
+
+h1 span{
+    color: green;
+}
+
+.tulip a{
+    text-decoration: none;
+    color: green;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.wrap1{
+    border: 3px solid green;
+    width: 700px;
+    height: 600px;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    font-size: larger;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.promp{
+    color: green;
+}
+
+.prompt{
+    color: green;
+}
+
+.xox{
+    margin-top: 10px;
+}
+
+ .wrap2{
+    border: 3px solid white;
+    width: 700px;
+    height: 600px;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    font-size: larger;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.juju span{
+    color: green;
+}
+
+::placeholder{
+    color: white;
+}
+
+.rap1{
+    padding: 5px;
+    height: 33px;
+    width: 565px;
+    border-radius: 10px;
+    border:3px green solid;
+    background-color: black;
+    color: white;
+}
+
+.rap2{
+    margin-top: 15px;
+    padding: 5px;
+    height: 33px;
+    width: 565px;
+    border-radius: 10px;
+    border:3px green solid;
+    background-color: black;
+    color: white;
+}
+
+.rap3{
+    margin-top: 15px;
+    padding: 5px;
+    height: 33px;
+    width: 565px;
+    border-radius: 10px;
+    color: white;
+    border:3px green solid;
+    background-color: black;
+}
+
+#bio{
+    margin-top: 15px;
+    padding: 5px;
+    width: 565px;
+    height: 290px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    border:3px green solid;
+    background-color: black;
+}
+
+.kopo{
+    margin-top: 15px;
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+@media (min-width:360px) and (max-width: 480px) {
+    .tulip h1{
+        font-size: 25px;
+    }
+    
+    .wrap1{
+        border: 3px solid white;
+        width: 700px;
+        height: 600px;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        font-size: larger;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    
+    .prompt{
+        color: green;
+        font-size: medium;
+    }
+    
+    .xox{
+        margin-top: 10px;
+        font-size: small;
+    }
+    
+     .wrap2{
+        border: 3px solid white;
+        width: 700px;
+        height: 600px;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        font-size: larger;
+        overflow: hidden;
+        flex-wrap: wrap;
+        
+    }
+    
+    .juju span{
+        color: green;
+    }
+    
+    ::placeholder{
+        color: white
+    }
+    .rap1{
+        padding: 5px;
+        height: 33px;
+        width: 280px;
+        border-radius: 10px;
+        border:3px green solid;
+    }
+    
+    .rap2{
+        margin-top: 15px;
+        padding: 5px;
+        height: 33px;
+        width: 280px;
+        border-radius: 10px;
+        border:3px green solid;
+    }
+    
+    .rap3{
+        margin-top: 15px;
+        padding: 5px;
+        height: 33px;
+        width: 280px;
+        border-radius: 10px;
+        border:3px green solid;
+    }
+    
+    #bio{
+        margin-top: 15px;
+        padding: 5px;
+        width: 280px;
+        height: 200px;
+        border-radius: 10px;
+        border: none;
+        border:3px green solid;
+    }
+    
+    .kopo{
+        margin-top: 15px;
+        width: 120px;
+        height: 30px;
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        border: none;
+    }   
+        
+} 

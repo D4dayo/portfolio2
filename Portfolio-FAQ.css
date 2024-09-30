@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.tulip{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 span{
+    color: green;
+}
+
+.tulip a{
+    text-decoration: none;
+    color: green;
+}
+
+.hawkgirl{
+    background-color: green;
+    height: 3px;
+}
+
+.greenlatern{
+    width: 670px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.redtornado:hover + .shazam{
+    display:block;
+    background-color: green;
+    padding: 5%; 
+    transform:scale(1);
+}
+
+.shazam{
+    background-color:white;
+    display: none;
+    color: black;
+    margin-top: 0;  
+}
+
+.greenlatern h3:hover{
+    text-decoration: underline;
+    font-size: 100%;
+    margin-bottom: 0;
+}
+
+@media (min-width:360px) and (max-width:480px){
+  .tulip h1{
+    font-size: 20px;
+  }  
+.greenlatern{
+    width: 670px;
+    height: 40px;
+    border-radius:10px;
+}
+
+.greenlatern h3{
+    text-decoration: underline;
+    font-size: 75%;
+}
+
+.greenlatern h3:hover{
+    text-decoration: underline;
+    font-size: 100%;
+}
+
+.shazam{
+    background-color:white;
+    color: black;
+    margin-left: 0;   
+}
+.redtornado:hover + .shazam{
+    display:block;
+    background-color: green;
+    padding: 5%;
+    margin-left: 0;
+    transform:scale(.5);
+}
+
+h1 span{
+    color: green;
+}
+
+.hawkgirl{
+    background-color: green;
+    height: 3px;
+}
+
+
+}

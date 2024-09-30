@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.tulip{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 span{
+    color: green;
+}
+
+.tulip a{
+    text-decoration: none;
+    color: green;
+}
+
+ .blackwidow{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+} 
+
+.avengers{
+    border: 3px solid white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    /* position: fixed; */
+    overflow: hidden;
+}
+
+.vengers{
+    border: 3px solid green;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    /*position: fixed; */
+    overflow: hidden;
+}
+
+.hulk{
+    border: 3px solid white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    /*position: fixed; */
+    overflow: hidden;
+
+}
+.xmen{
+    border: 3px solid green;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    /* position: fixed; */
+    overflow: hidden;
+}
+
+.thor{
+    border: 3px solid white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    /* position: fixed; */
+    overflow: hidden;
+}
+
+@media (min-width:360px) and (max-width:480px) {
+    .tulip h1{
+        font-size: 28px;
+    }
+    
+.avengers{
+    border: 3px solid green;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    /* position: fixed; */
+}
+
+.vengers{
+    border: 3px solid green;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    /*position: fixed; */
+}
+
+.hulk{
+    border: 3px solid white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    /*position: fixed; */
+
+}
+.xmen{
+    border: 3px solid green;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    /* position: fixed; */
+}
+
+.thor{
+    border: 3px solid white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    /* position: fixed; */
+}
+
+p span{
+    display: none;
+}
+}
+
+@media (min-width:668px) and (max-width:765px) {
+    .blackwidow{
+        display: flex;
+        align-items: none;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+    } 
+
+    .avengers{
+        border: 3px solid green;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 300px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 100px;
+        /* position: fixed; */
+    }
+    
+    .vengers{
+        border: 3px solid green;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 300px;
+        height: 200px;
+        margin-top: 150px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 100px;
+        /*position: fixed; */
+    }
+    
+    .hulk{
+        border: 3px solid white;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 300px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-bottom: 100px;
+        /*position: fixed; */
+    
+    }
+    .xmen{
+        border: 3px solid green;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 300px;
+        height: 200px;
+        margin-top: 150px;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 100px;
+        /* position: fixed; */
+    }
+    
+    .thor{
+        border: 3px solid white;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 300px;
+        height: 200px;
+        margin-top: 40px;
+        margin-right: 370px;
+        padding-left: 10px;
+        padding-bottom: 100px;
+        /* position: fixed; */
+    }
+
+}
